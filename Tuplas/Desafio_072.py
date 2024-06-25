@@ -1,0 +1,1 @@
+# Um programa que leia um numero digitado pelo usuario entre 0 e 20 e mostre ele por extenso(10 = dez), utilizando tuplas

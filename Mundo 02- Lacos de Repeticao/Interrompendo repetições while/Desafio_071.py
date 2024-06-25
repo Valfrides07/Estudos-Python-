@@ -1,0 +1,2 @@
+# Um programa que simule um caixa eletronico perguntando qual sera o valor a ser sacado( numero inteiro) e o programa vai informar quantas cédulas de cada valor 
+#serão entregues, o caixa possui cédulas de 50, 20, 10 e 1 reais
