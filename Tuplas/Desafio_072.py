@@ -5,7 +5,9 @@ nums = ("Zero", "Um", "Dois", "Tres", "Quatro", "Cinco", "Seis", "Sete", "Oito",
 while True:
 
     numeracao = int(input("Digite um numero entre 0 e 20: "))
-    if 0 <=  numeracao >=20:
+    if 0 <=  numeracao <=20:
+        print(f"O número {numeracao} é {nums[numeracao]} por extenso.") #{nums[numeracao]} deve conter a índice dentro dos colchetes para que possa ser acessado as informações   
+        break
+    else:
+        print("Numero digitado é inválido.")
         continue
-    print(f"O número {numeracao} é {nums[numeracao]} por extenso.") #{nums[numeracao]} deve conter a índice dentro dos colchetes para que possa ser acessado as informações
-    break
