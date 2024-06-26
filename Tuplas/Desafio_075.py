@@ -1,0 +1,1 @@
+#Desenvolver um programa que leia quatro valores e guarde-os em uma tupla e no final, mostre: Quantas vezes apareceu o valor 9, Em qual posição foi digitado o valor 3 e Quais foram os numeros Pares.
