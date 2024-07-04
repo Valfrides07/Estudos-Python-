@@ -5,8 +5,8 @@
 
 for i in range(4):
     nome = str(input(F"Diga o {i+1}º nome: "))
-    idade = int(input(f"Ensira a {i+1}º idade: "))
-    sexo = str(input("Ensira o Genero que se indentifica sendo, Hétero-Homem(H) Hétero-Feminino(M) Transsexual(T): "))
+    idade = int(input(f"Insira a {i+1}º idade: "))
+    sexo = str(input("Insira o Genero que se indentifica sendo, Hétero-Homem(H) Hétero-Feminino(M) Transsexual(T): "))
     calculo_idade = idade/4
 
     if sexo == "H" or "h" :

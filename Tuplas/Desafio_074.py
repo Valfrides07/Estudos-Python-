@@ -2,7 +2,7 @@
 
 import random
 
-lista = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+lista = (1, 2, 3, 4, 5, 6, 7, 8, 9, 10)
 sublista = lista[2:]
 
 # Gera uma amostra de 5 números aleatórios da sublista
@@ -10,7 +10,7 @@ numeros_aleatorios = random.sample(sublista, 5) #Usando essa sublista com a fun�
 print(numeros_aleatorios)
 
 maior = max(numeros_aleatorios)
-print(f"O maior numero apresntado foi o: {maior}")
+print(f"O maior numero apresentado foi o: {maior}")
 
 menor = min(numeros_aleatorios)
-print(f"O menor numero apresntado foi o: {menor}")
+print(f"O menor numero apresentado foi o: {menor}")

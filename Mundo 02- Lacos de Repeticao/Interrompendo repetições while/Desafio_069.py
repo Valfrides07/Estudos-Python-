@@ -9,10 +9,10 @@ while True:
     idade = int(input("Informe a sua idade: "))
 
     if idade < 1:
-        print("Ensira uma idade válida!")
+        print("Insira uma idade válida!")
         continue 
     if idade > 110:
-        print("Ensira uma idade válida!")
+        print("Insira uma idade válida!")
         continue 
 
     sx = input("Informe o seu genero M ou F: ")

@@ -2,7 +2,7 @@
 
 pesos = []
 for pp in range(1,6):
-    peso = float(input(f"Ensira o seu {pp}º peso: "))
+    peso = float(input(f"Insira o seu {pp}º peso: "))
     pesos.append(peso)
 
 maior_peso = max(pesos)

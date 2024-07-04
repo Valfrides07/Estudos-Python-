@@ -4,8 +4,8 @@ while True: #While True serve para que o programa entre em um Loop
     valores = []
 
     for nn in range (1,11):
-        num =  int(input(f"Ensira o {nn}º numero: "))
-        valores.append(num)#armazena os valores digitados pelo o usuario
+        num =  int(input(f"Insira o {nn}º numero: "))
+        valores.append(num) #armazena os valores digitados pelo o usuario
 
     media = sum(valores)/len(valores) #"len(numeros)" é o número total de elementos na lista, neste contexto serve para dividir com os numeros somados
     print(f"A média dos valores digitados é: {media}")

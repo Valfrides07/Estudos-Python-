@@ -5,7 +5,7 @@ idademaior = 0
 idademenor = 0
 
 for i in range(1,8):
-    idade = int(input(f"Ensira o ano {i}º de nascimento: "))
+    idade = int(input(f"Insira o ano {i}º de nascimento: "))
     cal_idade = 2024 - idade
     if cal_idade >= 18:
         

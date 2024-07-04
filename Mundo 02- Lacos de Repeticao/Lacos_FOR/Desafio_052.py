@@ -1,6 +1,5 @@
 #Um algortimo que seja divisivel por ele mesm, ou seja um numero primo
 
-
 n = int(input('Digite um número: '))
 b = 0
 for c in range(1, n+1):
